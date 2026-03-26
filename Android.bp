@@ -1,0 +1,9 @@
+android_app_import {
+    name: "NightStand",
+    product_specific: true,
+
+    apk: "prebuilt/app-release.apk",
+    preprocessed: true,
+
+    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
+}
